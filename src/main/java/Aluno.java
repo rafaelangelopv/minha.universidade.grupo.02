@@ -19,8 +19,8 @@ public class Aluno extends Pessoa {
         this.matricula = matricula;
     }
 
-    // Método pagarMensalidade
+    // Método pagarMensalidade (VERIFICAR)
     public void pagarMensalidade() {
-        System.out.println("Aluno " + nome + " pagou a mensalidade.");
+        System.out.println("Este aluno: " + nome + ", pagou a mensalidade.");
     }
 }

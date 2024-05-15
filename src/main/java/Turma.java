@@ -1,5 +1,5 @@
-import java.util.ArrayList;
-import java.util.List;
+import java.util.ArrayList; // Biblioteca Java Util ArrayList
+import java.util.List; // Biblioteca Java Util List
 
 public class Turma {
 
@@ -48,33 +48,14 @@ public class Turma {
 
     // Método para adicionar aluno
     public void adicionarAluno(Aluno aluno) {
+
         if (!alunos.contains(aluno)) {
             alunos.add(aluno);
+            System.out.println("\n");
+            System.out.println("Adicionando Alunos...");
             System.out.println("Aluno " + aluno.getNome() + " adicionado à turma " + codigo);
         } else {
             System.out.println("Aluno " + aluno.getNome() + " já está presente na turma " + codigo);
-        }
-    }
-
-    // Método para remover aluno
-    public void removerAluno(Aluno aluno) {
-        if (alunos.contains(aluno)) {
-            alunos.remove(aluno);
-            System.out.println("Aluno " + aluno.getNome() + " removido da turma " + codigo);
-        } else {
-            System.out.println("Aluno " + aluno.getNome() + " não está presente na turma " + codigo);
-        }
-    }
-
-    // Método para listar alunos
-    public void listarAlunos() {
-        if (alunos.isEmpty()) {
-            System.out.println("A turma " + codigo + " não possui alunos matriculados.");
-        } else {
-            System.out.println("Alunos da turma " + codigo + ":");
-            for (Aluno aluno : alunos) {
-                System.out.println(" - " + aluno.getNome());
-            }
         }
     }
 }

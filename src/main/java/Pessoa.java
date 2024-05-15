@@ -36,15 +36,4 @@ public abstract class Pessoa {
     public void setIdade(int idade) {
         this.idade = idade;
     }
-    
-    // Método para incrementar a idade
-    public void incrementarIdade() {
-        this.idade++;
-    }
-
-    // Método para simular aniversário
-    public void fazerAniversario() {
-        incrementarIdade();
-        System.out.println("Parabéns " + nome + "! Você completou " + idade + " anos!");
-    }
 }

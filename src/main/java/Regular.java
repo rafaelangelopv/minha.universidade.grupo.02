@@ -6,7 +6,6 @@ public class Regular extends Aluno {
     }
 
     // Sobreposição do método pagarMensalidade
-    @Override
     public void pagarMensalidade() {
         super.pagarMensalidade(); // Chamada do método da classe base
     }

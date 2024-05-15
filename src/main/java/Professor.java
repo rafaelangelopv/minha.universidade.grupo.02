@@ -18,9 +18,4 @@ public class Professor extends Pessoa {
     public void setCentro(String centro) {
         this.centro = centro;
     }
-
-    // Método darAula
-    public void darAula() {
-        System.out.println("Professor " + nome + " está dando aula.");
-    }
 }

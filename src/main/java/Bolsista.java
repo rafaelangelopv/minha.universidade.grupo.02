@@ -6,8 +6,7 @@ public class Bolsista extends Aluno {
     }
 
     // Sobreposição do método pagarMensalidade
-    @Override
     public void pagarMensalidade() {
-        System.out.println("Bolsista " + nome + " tem bolsa e não paga mensalidade.");
+        System.out.println("O Aluno " + nome + " é Bolsista. Tem bolsa e não paga mensalidade.");
     }
 }
