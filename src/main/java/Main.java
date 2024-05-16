@@ -7,8 +7,8 @@ public class Main {
         Disciplina disciplina3 = new Disciplina("789", "Fundamentos de Java", 3);
 
         // Criação dos alunos (2 regulares e 1 bolsista)
-        Aluno alunoRegular1 = new Aluno("22222222200", "Isaias", 30, "MA123");
-        Aluno alunoRegular2 = new Aluno("11111111100", "Maria", 25, "MA456");
+        Regular alunoRegular1 = new Regular("22222222200", "Isaias", 30, "MA123");
+        Regular alunoRegular2 = new Regular("11111111100", "Maria", 25, "MA456");
         Bolsista alunoBolsista = new Bolsista("33333333300", "Lucas", 30, "MA789");
 
         // Criação do professor
