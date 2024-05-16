@@ -1,7 +1,6 @@
 public class Aluno extends Pessoa {
 
     private String matricula;
-    public String nome;
 
     // Construtor
     public Aluno(String cpf, String nome, int idade, String matricula) {
