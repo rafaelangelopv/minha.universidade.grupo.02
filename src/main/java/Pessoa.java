@@ -1,7 +1,7 @@
 public abstract class Pessoa {
 
     private String cpf;
-    private String nome;
+    public String nome;
     private int idade;
 
     // Construtor
@@ -9,6 +9,11 @@ public abstract class Pessoa {
         this.cpf = cpf;
         this.nome = nome;
         this.idade = idade;
+    }
+
+    // Método personalizado - aniversário
+    public void fazerAniversario(){
+        this.setIdade(this.getIdade() + 1);
     }
 
     // Getters
