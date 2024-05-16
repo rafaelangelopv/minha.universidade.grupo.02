@@ -1,7 +1,6 @@
 public class Professor extends Pessoa {
 
-    private String centro;
-    public String nome;
+    public String centro;
 
     // Construtor
     public Professor(String cpf, String nome, int idade, String centro) {
@@ -17,5 +16,9 @@ public class Professor extends Pessoa {
 
     public void setCentro(String centro) {
         this.centro = centro;
+    }
+
+    public void darAula(){
+        System.out.println("O professor " + nome + " dá aulas em " + centro);
     }
 }
