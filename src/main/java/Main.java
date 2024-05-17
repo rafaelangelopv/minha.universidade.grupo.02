@@ -21,14 +21,23 @@ public class Main {
         // Criação das turmas
         Turma turma1 = new Turma("T1", disciplina1, professor);
         turma1.adicionarAluno(alunoRegular1);
+        turma1.adicionarAluno(alunoRegular2);
+        turma1.adicionarAluno(alunoBolsista);
+        turma1.status();
 
         Turma turma2 = new Turma("T2", disciplina2, professor);
+        turma2.adicionarAluno(alunoRegular1);
         turma2.adicionarAluno(alunoRegular2);
+        turma2.adicionarAluno(alunoBolsista);
+        turma2.status();
 
         Turma turma3 = new Turma("T3", disciplina3, professor);
+        turma3.adicionarAluno(alunoRegular1);
+        turma3.adicionarAluno(alunoRegular2);
         turma3.adicionarAluno(alunoBolsista);
+        turma3.status();
 
-        // Simulando um dia na escola
+/*        // Simulando um dia na escola
         System.out.println("\n");
         System.out.println("==================== Início do dia na escola =====================");
 
@@ -91,6 +100,6 @@ public class Main {
         System.out.println("Alunos:");
         for (Aluno aluno : turma.getAlunos()) {
             System.out.println(" - " + aluno.getNome());
-        }
+        }*/
     }
 }
