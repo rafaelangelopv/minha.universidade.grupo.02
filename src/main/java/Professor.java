@@ -22,4 +22,8 @@ public class Professor extends Pessoa {
     public void darAula(){
         System.out.println("O professor " + nome + " dá aulas em " + centro);
     }
+    @Override
+    public String toString(){
+        return nome;
+    }
 }
