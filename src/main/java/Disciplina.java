@@ -36,4 +36,10 @@ public class Disciplina {
     public void setSemestre(int semestre) {
         this.semestre = semestre;
     }
+
+    // Sobrescrita do método toString
+    @Override
+    public String toString(){
+        return nome
+    }
 }
