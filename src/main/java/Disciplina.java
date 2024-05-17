@@ -40,6 +40,6 @@ public class Disciplina {
     // Sobrescrita do método toString
     @Override
     public String toString(){
-        return nome
+        return nome;
     }
 }
