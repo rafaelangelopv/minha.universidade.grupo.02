@@ -1,12 +1,11 @@
 import java.util.ArrayList; // Biblioteca Java Util ArrayList
-import java.util.List; // Biblioteca Java Util List
 
 public class Turma {
 
     private String codigo;
     private Disciplina disciplina;
     private Professor professor;
-    private List<Aluno> alunos;
+    private ArrayList<Aluno> alunos;
 
     // Construtor
     public Turma(String codigo, Disciplina disciplina, Professor professor) {
@@ -15,9 +14,23 @@ public class Turma {
         this.professor = professor;
         this.alunos = new ArrayList<>();
     }
-
+    // Métodos para adc e remover aluno
+    public void adicionarAluno(Aluno aluno){
+        alunos.add(aluno);
+    }
+    public void removerAluno(Aluno aluno){
+        aluno.remove(aluno);
+        System.out.println("Aluno(a) " + aluno + " removido da disciplina " + disciplina + ".");
+    }
+    // Método para exibir as informações da turma
+    public void status(){
+        System.out.println("Código: " + codigo);
+        System.out.println("Professor: " + professor);
+        System.out.println("Disciplina: " + disciplina);
+        System.out.println("Alunos: " + alunos);
+    }
+    
     // Getters e Setters
-
     public String getCodigo() {
         return codigo;
     }
@@ -42,7 +55,7 @@ public class Turma {
         this.professor = professor;
     }
 
-    public List<Aluno> getAlunos() {
+    /*public List<Aluno> getAlunos() {
         return alunos;
     }
 
@@ -57,5 +70,5 @@ public class Turma {
         } else {
             System.out.println("Aluno " + aluno.getNome() + " já está presente na turma " + codigo);
         }
-    }
+    }*/
 }
