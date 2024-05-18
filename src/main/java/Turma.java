@@ -19,7 +19,7 @@ public class Turma {
         alunos.add(aluno);
     }
     public void removerAluno(Aluno aluno){
-        aluno.remove(aluno);
+        alunos.remove(aluno);
         System.out.println("Aluno(a) " + aluno + " removido da disciplina " + disciplina + ".");
     }
     // Método para exibir as informações da turma
