@@ -1,3 +1,6 @@
 {
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.debug.settings.onBuildFailureProceed": true,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 12,
+    "cSpell.language": "en,pt-BR,pt"
 }
