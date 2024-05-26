@@ -54,21 +54,4 @@ public class Turma {
     public void setProfessor(Professor professor) {
         this.professor = professor;
     }
-
-    /*public List<Aluno> getAlunos() {
-        return alunos;
-    }
-
-    // Método para adicionar aluno
-    public void adicionarAluno(Aluno aluno) {
-
-        if (!alunos.contains(aluno)) {
-            alunos.add(aluno);
-            System.out.println("\n");
-            System.out.println("Adicionando Alunos...");
-            System.out.println("Aluno " + aluno.getNome() + " adicionado à turma " + codigo);
-        } else {
-            System.out.println("Aluno " + aluno.getNome() + " já está presente na turma " + codigo);
-        }
-    }*/
 }
