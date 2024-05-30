@@ -2,5 +2,11 @@
     "java.debug.settings.onBuildFailureProceed": true,
     "editor.fontFamily": "Fira Code",
     "editor.fontSize": 12,
-    "cSpell.language": "en,pt-BR,pt"
+    "cSpell.language": "en,pt-BR,pt",
+    "markdown-pdf.includeDefaultMarkdownStyles": true,
+    "markdown-pdf.includeDefaultStyle": false,
+    "markdown-pdf.pageHeader": "",
+    "markdown-pdf.pageFooter": "",
+    "markdown-pdf.pageSize": "A4"
+    
 }
