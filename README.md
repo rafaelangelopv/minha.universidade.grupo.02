@@ -6,12 +6,11 @@
 
 ## Equipe
 
-- Rafael Angelo Pinheiro Do Vale
-- Maria Beatriz Gadelha de Oliveira
-- Jennifer da Silva Lima
-- Isaias Do Amaral Sousa
-- Rodrigo Fernandes Targino de Souza
-- Lucas Ramos Ribeiro
+- Rafael Angelo Pinheiro Do Vale - 2418273
+- Maria Beatriz Gadelha de Oliveira - 2415497
+- Isaias Do Amaral Sousa - 2416767
+- Rodrigo Fernandes Targino de Souza - 2415489
+- Lucas Ramos Ribeiro - 2417012
 
 ## Linguagem
 
