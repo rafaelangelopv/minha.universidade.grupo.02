@@ -7,6 +7,7 @@
     "markdown-pdf.includeDefaultStyle": false,
     "markdown-pdf.pageHeader": "",
     "markdown-pdf.pageFooter": "",
-    "markdown-pdf.pageSize": "A4"
+    "markdown-pdf.pageSize": "A4",
+    "java.configuration.updateBuildConfiguration": "automatic"
     
 }
